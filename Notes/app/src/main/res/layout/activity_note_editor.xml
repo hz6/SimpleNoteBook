@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/padding"
     android:layout_width="match_parent"
@@ -16,6 +15,7 @@
         android:inputType="textMultiLine"
         tools:layout_editor_absoluteX="23dp"
         tools:layout_editor_absoluteY="306dp"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no"
+        tools:ignore="LabelFor" />
 
 </RelativeLayout>
